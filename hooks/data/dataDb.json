@@ -1,0 +1,38 @@
+{
+    "blogs": [
+        {
+            "title": "My Blog",
+            "body": "Lorem ipsum......",
+            "author": "John",
+            "id": 1
+        },
+        {
+            "title": "My Blog 2",
+            "body": "Lorem ipsum......",
+            "author": "jack",
+            "id": 2
+        },
+        {
+            "title": "My Blog 3",
+            "body": "Lorem ipsum......",
+            "author": "Jane",
+            "id": 3
+        }
+    ],
+    "comments": [
+        {
+            "comment": "Your blog is awesome",
+            "id": 1
+        },
+        {
+            "comment": "Your blog is awesome",
+            "id": 2
+        },
+        {
+            "comment": "Your blog is awesome",
+            "id": 3
+        }
+
+    ]
+}
+

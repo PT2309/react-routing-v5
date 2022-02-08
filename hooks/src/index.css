@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0px auto;
+    border-bottom: 1px solid #dddcdc;
+}
+
+.navbar h1{
+    color:rgb(182, 112, 248)
+}
+
+.navbar .link{
+    margin-left: auto;
+}
+
+.navbar a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.navbar a:hover{
+    color:rgb(182, 112, 248)
+}
+
+.content{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.blog-view{
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #a8a5a5;
+}
+
+.blog-view:hover{
+   box-shadow: 1px 3px 5px rgb(186, 101, 243);
+}
+
+.blog-view h2{
+    font-size: 20px;
+    color: rgb(186, 101, 243);
+    margin-bottom: 8px;
+}

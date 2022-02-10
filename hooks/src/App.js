@@ -2,7 +2,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import CreateBlog from './components/CreateBlog';
 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import BlogDetails from './components/BlogDetails';
 
 // Templates
@@ -19,7 +19,8 @@ function App() {
                 <Route path='/create'>
                   <CreateBlog></CreateBlog>
                 </Route>
-                <Route path='/blogs'>
+                {/* Route Parameters */}
+                <Route path='/blogs/:id'>
                     <BlogDetails></BlogDetails>
                 </Route>
             </Switch>

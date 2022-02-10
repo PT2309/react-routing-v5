@@ -52,3 +52,30 @@
     color: rgb(186, 101, 243);
     margin-bottom: 8px;
 }
+
+.create{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label{
+    text-align: left;
+    display: block;
+}
+
+.create h2{
+    font-size: 20px;
+    color:rgb(182, 112, 248);
+    margin-bottom: 30px;
+
+}
+
+.create input, .create textarea, .create select{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    display: block;
+}

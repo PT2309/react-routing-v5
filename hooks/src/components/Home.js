@@ -20,7 +20,7 @@ const Home = () => {
         <div className="home">
             { error && <div> {error} </div> }
             { isLoading && <div>Loading.....</div>}
-            {blogs && <BlogList blogs={blogs} title="All Blogs"></BlogList>}
+            { blogs && <BlogList blogs={blogs} title={blogs.length>0 ? "All the Blogs": 'No blogs found'}></BlogList> }
             {/* <BlogList blogs={blogs.filter( blog => blog.author === 'Yash')} title="Yash's Blog" handleDelete={handleDelete}></BlogList> */}
         </div>
     )

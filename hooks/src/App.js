@@ -4,6 +4,7 @@ import CreateBlog from './components/CreateBlog';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import BlogDetails from './components/BlogDetails';
+import NotFound from './components/NotFound';
 
 // Templates
 function App() {
@@ -22,6 +23,9 @@ function App() {
                 {/* Route Parameters */}
                 <Route path='/blogs/:id'>
                     <BlogDetails></BlogDetails>
+                </Route>
+                <Route path='*'>
+                  <NotFound></NotFound>
                 </Route>
             </Switch>
           </div>

@@ -19,8 +19,8 @@ const useFetch = (url) => {
                 })
                 .then(data => {
                     // console.log(blogs)
-                    setData(data);
-                    setIsLoading(false);
+                        setData(data);
+                        setIsLoading(false);
                 })
                 .catch( err => {
                     if( err.name === 'AbortError'){
